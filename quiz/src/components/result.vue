@@ -1,7 +1,7 @@
 <template>
-  <div ref="sss">
+  <div>
     <b-row>
-      <b-col sm="5" offset="4">
+      <b-col class="mx-auto" cols="12" sm="8" md="7" lg="5">
         <b-jumbotron class="bgc">
           <template> Your correct answer : {{this.correct}} / 10 </template>
           <b-button class="justify_end margin-top" @click="reset"
