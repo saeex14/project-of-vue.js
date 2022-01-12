@@ -1,0 +1,50 @@
+body{
+    background-image: url("../quiz.jpg");
+    background-size: cover;
+    overflow-x:hidden;
+}
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url("../logo.png");
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+}
+.bgc{
+    margin: 10px;
+    color: white;
+    padding: 30px;
+    background-color: rgba(94, 89, 89, 0.1);  
+    box-shadow: 0 0 6px rgba(255, 253, 253, 0.788);
+    border-radius: 10px; 
+}   
+.margin-top{
+    margin-top:10px;
+}
+.justify_end{
+    display: flex;
+    text-align: flex-end;
+    justify-content: flex-end;
+}
+.gbList{
+    background-color: rgba(147, 73, 156,0.5);
+    color:white;  
+    padding-top: 4px;
+}
+.list-group-item-action:hover{
+    background-color: rgba(147, 73, 156,1);
+    color:white;
+}  
+.list-group-item-action:focus {
+    background-color: rgb(132, 65, 141);
+    color:white;
+
+}
+.btn:hover{
+    background-color: rgba(138, 10, 150, 0.637);
+}
+.btn:focus{
+    background-color: rgba(138, 10, 150, 0.774);
+}
